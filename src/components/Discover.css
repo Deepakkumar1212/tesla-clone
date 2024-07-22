@@ -1,0 +1,32 @@
+.discover {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 7% 7% 10% 7%;
+}
+.discover .left {
+    display: flex;
+    flex-direction: column;
+}
+.discover .left h4 , .discover .middle h4, .discover .right h4{
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 1rem;
+    opacity: .6;
+}
+.discover .middle {
+    display: flex;
+    flex-direction: column;
+}
+.discover .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.discover .left a, .discover .right a, .discover .middle a {
+    color: black;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
